@@ -170,8 +170,37 @@ export default {
                 display: none;
         .buttons_publication
             display: grid !important;
+        .row_footer
+                div:nth-child(1)
+                    width: 7%;
+                    &.circle_second
+                        width: 10%;
+                    &.circle_third
+                        width: 20% !important;
+@media (max-width: $breakpoint-phone-large)
+    #container-publication
+        .card
+            grid-template-columns: 30% 70% !important;
+            .hidden_link
+                display: none;
+        .buttons_publication
+            display: grid !important;
+        .row_footer
+                div:nth-child(1)
+                    width: 7%;
+                    &.circle_second
+                        width: 17% !important;
+                    &.circle_third
+                        width: 25% !important;
 @media (max-width: $breakpoint-phone)
     #container-publication
         .card
-            grid-template-columns: 30% 70% !important; 
+            grid-template-columns: 30% 70% !important;
+        .row_footer
+                div:nth-child(1)
+                    width: 7%;
+                    &.circle_second
+                        width: 20% !important;
+                    &.circle_third
+                        width: 30% !important; 
 </style>

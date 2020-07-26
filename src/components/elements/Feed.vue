@@ -27,7 +27,7 @@ export default {
   },
   computed:{
     publications(){
-        return this.$store.state.publications;
+        return this.$store.state.publications
         
     }
   }

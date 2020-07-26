@@ -25,7 +25,7 @@ export default {
 @import '../../styles/variables.scss';
 
 header
-    z-index: 1;
+    z-index: 10;
     border-bottom: 1px solid $gray-border-header;
     display: flex;
     height: 4rem;
